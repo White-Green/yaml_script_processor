@@ -1,0 +1,20 @@
+[package]
+name = "yaml_script_processor"
+version = "0.1.0"
+authors = ["White-Green <43771790+White-Green@users.noreply.github.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.51"
+serde = "1.0.126"
+serde_yaml = "0.8.17"
+serde_derive = "1.0.126"
+serde_json = "1.0.64"
+clap = "2.33.3"
+encoding_rs = "0.8.28"
+regex = "1.5.4"
+hound = "3.4.0"
+pathdiff = "0.2.1"
+itertools = "0.10.3"
